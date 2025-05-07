@@ -1,0 +1,4 @@
+function main(workbook: ExcelScript.Workbook) {
+  // 🔄 Atualiza todas as conexões de dados (ex: Power Query, PivotTables, etc.)
+  workbook.refreshAllDataConnections();
+}
